@@ -10,14 +10,14 @@ wc -l tradedata.csv
 # 3. Count number of columns
 head -1 tradedata.csv | awk -F',' '{print NF}'
 
-# 4. Show unique values in column 4
+# 4. Show unique years in column 4
 tail -n +2 tradedata.csv | cut -d',' -f4 | sort -u
 
-# 5. Count no. occurences of each unique value in column 4
+# 5. Count no. times of each year appears in column 4
 tail -n +2 tradedata.csv | cut -d',' -f4 | sort | uniq -c
 
-# 6. Count number of unique values in column 4
-tail -n +2 tradedata.csv | cut -d',' -f4 | sort -u | wc -l
+# 6. Count number of unique countries in column 9
+tail -n +2 tradedata.csv | cut -d',' -f9 | sort -u | wc -l
 
 
 # DATA CLEANING
