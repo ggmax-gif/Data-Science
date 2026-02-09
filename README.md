@@ -8,7 +8,7 @@
 
 ## Project Overview
 
-Analysing a decade of global merchandise trade (2014-2024) using **Linux command-line tools** and **GitHub collaboration**. This project demonstrates how to efficiently clean and analyse large datasets using AWK, grep, and other Unix utilities. We used the [UN Comtrade Database](https://comtradeplus.un.org/) covering 200+ countries to explore international trade patterns.
+Analysing a decade of global merchandise trade (2014-2024) using **Linux command-line tools** and **GitHub collaboration**. This project demonstrates how to efficiently clean and analyse large datasets using AWK, grep, and other Unix utilities. We used the [UN Comtrade Database](https://comtradeplus.un.org/) covering 180+ countries to explore international trade patterns.
 
 ### Research Questions
 
